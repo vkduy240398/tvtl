@@ -1,0 +1,130 @@
+
+.avatarReader{
+    position: relative;
+    width: 100%;
+    height: 200px;
+    overflow: hidden;
+    text-align: center;
+    background: #ccc;
+}
+.avatarReader #readerImage{
+    position: absolute;
+    width: 50%;
+    height: 100%;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    object-fit: cover;
+}
+.avatarReader.info{
+    height: 350px;
+    border-radius: 20%;
+}
+.avatar{
+    display: flex;
+    justify-content: center;
+}
+.avatar label{
+    color: #fff;
+    background: #4e73df;
+    width: 100%;
+    font-size: 20px;
+    padding: 5px 10px;
+    cursor: pointer;
+    text-align: center;
+}
+.avatar input{
+    display: none;
+}
+/*  */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container .content_head .menu_head{
+    padding: 10px 0 0 0;
+}
+.container .content_head .banner img{
+    width: 100%;
+}
+.container .content_head .menu_head .nav-link{
+   margin: 0;
+}
+.container .content_head .menu_head .nav-link li{
+    display: inline-block;
+}
+.container .content_head .menu_head .nav-link li a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 0.8em;
+    padding: 5px 10px;
+    background: #327396;
+    transition: 0.5s ease;
+}
+.container .content_head .menu_head .nav-link li a:hover{
+    background: #E8A029;
+    transition: 0s;
+}
+.container.evalute{
+    padding: 10px 0;
+}
+.container.evalute .evalute .info .content{
+    border: 1px solid #327396;
+    padding: 20px;
+}
+.container.evalute .evalute .info .content .form form p{
+    font-size: 20px;
+    text-align: center;
+}
+.container.evalute .evalute .info .content .form form input[type="radio"]{
+    margin: 0 20px;
+}
+
+.container.evalute .evalute .info .content .form form .content_evalute{
+    margin: 0;
+}
+.container.evalute .evalute .info .content .form form hr{
+   margin: 5px;
+}
+.container.evalute .evalute .info .title{
+    text-align: center;
+    padding: 20px 0;
+    background: #327396;
+}
+.container.evalute .evalute .info {
+    padding: 0;
+}
+.container.evalute .evalute .info .title h3{
+    color: #fff;
+    font-size: 18px;
+}
+.container .student .content{
+    border: 1px solid #327396;
+}
+.container .student .content .title h4{
+    padding: 20px;
+    background: #327396;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 400;
+}
+.container .student .content .action{
+    padding: 0 20px 20px;
+}
+.container .student .content .action nav ul{
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+}
+.container .student .content .action nav ul li a{
+    text-decoration: none;
+    transition: 0.5s;
+}
+.container .student .content .action nav ul li a:hover{
+    color: #ff0000;
+    transition: -0.5s;
+
+}
+
